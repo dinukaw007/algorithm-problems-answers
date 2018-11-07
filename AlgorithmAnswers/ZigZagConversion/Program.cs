@@ -6,7 +6,7 @@ namespace ZigZagConversion
     {
         static void Main(string[] args)
         {
-            var convert_string = Convert("PAYPALISHIRING", 3);
+            var convert_string = Convert("PAYPALISHIRING", 4);
             Console.WriteLine(convert_string);
             Console.ReadLine();
         }
