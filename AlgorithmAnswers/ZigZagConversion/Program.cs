@@ -12,12 +12,16 @@ namespace ZigZagConversion
     {
         static void Main(string[] args)
         {
-            var convert_string = Convert("PAYPALISHIRING", 4);
+            var convert_string = ZigZag.ConvertZigZag("PAYPALISHIRING", 4);
             Console.WriteLine(convert_string);
             Console.ReadLine();
         }
+       
+    }
 
-        private static string Convert(string s,  int numRows)
+    public static class ZigZag
+    {
+        public static string ConvertZigZag(string s, int numRows)
         {
             if (numRows == 1) return s;
             string ret = "";
@@ -38,4 +42,4 @@ namespace ZigZagConversion
             return ret;
         }
     }
-}
+    }

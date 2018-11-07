@@ -18,6 +18,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Test", "04.Test", "{51D828A4-9502-42A4-999C-A48966AB1602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmAnswersTest", "AlgorithmAnswersTest\AlgorithmAnswersTest.csproj", "{2C823639-115B-4A76-BD03-E367D613350A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +36,10 @@ Global
 		{926A11B4-1DCF-43C7-A574-D71D6BCF3F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{926A11B4-1DCF-43C7-A574-D71D6BCF3F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{926A11B4-1DCF-43C7-A574-D71D6BCF3F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C823639-115B-4A76-BD03-E367D613350A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C823639-115B-4A76-BD03-E367D613350A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C823639-115B-4A76-BD03-E367D613350A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C823639-115B-4A76-BD03-E367D613350A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +47,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{07062EBC-31ED-42CA-8C58-09F4C1D45DB7} = {D1F66972-93AC-48B4-AD3B-A0339C13F0C2}
 		{926A11B4-1DCF-43C7-A574-D71D6BCF3F94} = {D1F66972-93AC-48B4-AD3B-A0339C13F0C2}
+		{2C823639-115B-4A76-BD03-E367D613350A} = {51D828A4-9502-42A4-999C-A48966AB1602}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA912224-50B4-4C27-A329-119A1F1E21B0}
