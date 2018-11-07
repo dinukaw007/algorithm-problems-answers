@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Medium", "02.Medium", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Hard", "03.Hard", "{FB7B0F2C-3586-408A-A8AF-B5EC59873796}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZigZagConversion", "ZigZagConversion\ZigZagConversion.csproj", "{07062EBC-31ED-42CA-8C58-09F4C1D45DB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZigZagConversion", "ZigZagConversion\ZigZagConversion.csproj", "{07062EBC-31ED-42CA-8C58-09F4C1D45DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{926A11B4-1DCF-43C7-A574-D71D6BCF3F94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +23,17 @@ Global
 		{07062EBC-31ED-42CA-8C58-09F4C1D45DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07062EBC-31ED-42CA-8C58-09F4C1D45DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07062EBC-31ED-42CA-8C58-09F4C1D45DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926A11B4-1DCF-43C7-A574-D71D6BCF3F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926A11B4-1DCF-43C7-A574-D71D6BCF3F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926A11B4-1DCF-43C7-A574-D71D6BCF3F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926A11B4-1DCF-43C7-A574-D71D6BCF3F94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{07062EBC-31ED-42CA-8C58-09F4C1D45DB7} = {D1F66972-93AC-48B4-AD3B-A0339C13F0C2}
+		{926A11B4-1DCF-43C7-A574-D71D6BCF3F94} = {D1F66972-93AC-48B4-AD3B-A0339C13F0C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA912224-50B4-4C27-A329-119A1F1E21B0}
