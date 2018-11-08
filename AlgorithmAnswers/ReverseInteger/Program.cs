@@ -18,6 +18,7 @@ namespace ReverseInteger
 
     public static class ReverseInt
     {
+        //44  ms Runtime
         public static int Reverse(int x)
         {
             int ReversNumber = 0;

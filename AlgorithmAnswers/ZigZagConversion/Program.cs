@@ -21,6 +21,7 @@ namespace ZigZagConversion
 
     public static class ZigZag
     {
+        //100 ms Runtime
         public static string ConvertZigZag(string s, int numRows)
         {
             if (numRows == 1) return s;

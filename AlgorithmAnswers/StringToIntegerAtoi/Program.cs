@@ -15,6 +15,7 @@ namespace StringToIntegerAtoi
 
     public static class StringToInteger
     {
+        //84 ms Runtime
         public static int MyAtoi(string str)
         {
             long res = 0;
