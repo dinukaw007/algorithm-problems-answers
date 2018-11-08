@@ -32,5 +32,30 @@ namespace ReverseInteger
             }
             return ReversNumber;
         }
+
+        public static int ReverseTwo(int x)
+        {
+            long rev = 0, g = x;
+            while (x != 0)
+            {
+                long digit = x % 10;
+                rev = rev * 10 + digit;
+                x = x / 10;
+                if (rev < int.MaxValue - 1 && rev > int.MinValue)
+                {
+                    if (g > 0 && (rev < 0 || (rev >= int.MaxValue - 1)) ||
+                       (g < 0 && (rev > 0 || (rev <= int.MinValue))))
+                    {
+                        if (rev < 0 || (rev >= int.MaxValue - 1))
+                        {
+                            rev = 0;
+                            break;
+                        }
+                    }
+                }
+                else rev = 0;
+            }
+            return (int)rev;
+        }
     }
     }
