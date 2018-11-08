@@ -1,4 +1,5 @@
 ## Leetcode
 [leetcode.com](https://leetcode.com)
- - ReverseInteger
- - ZigZagConversion
+ - Reverse Integer
+ - ZigZag Conversion
+ - String to Integer ATOI
