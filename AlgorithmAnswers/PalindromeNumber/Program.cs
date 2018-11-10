@@ -22,7 +22,7 @@ namespace PalindromeNumber
         //96 ms run time
         public static bool IsPalindrome(int x)
         {
-            if (x < int.MaxValue && x > 0 && (x % 10 == 0 && x != 0))
+            if (x <= int.MaxValue && x > 0 && x % 10 == 0)
                 return false;
             int revertNumber = 0;
             while (x > revertNumber)
