@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\PalindromeNumber\PalindromeNumber.csproj" />
     <ProjectReference Include="..\ReverseInteger\ReverseInteger.csproj" />
+    <ProjectReference Include="..\RomanToInteger\RomanToInteger.csproj" />
     <ProjectReference Include="..\StringToIntegerAtoi\StringToIntegerAtoi.csproj" />
     <ProjectReference Include="..\ZigZagConversion\ZigZagConversion.csproj" />
   </ItemGroup>
